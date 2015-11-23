@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mark's To Do List</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="to-do_css.css">
+</head>
+
+<body>
+
+  <!-- Adding Table -->
+  <div class="container">
+    <div class="row">
+      <h1>Mark's Things To Do</h1>
+    </div>
+    <div class="row"> <!--Table Row 2 -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="submit" class="form-control" placeholder="Insert something you need to do">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Submit</button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div>  <!-- End of table row -->
+    <div> <!-- row spacer -->
+    </div>
+    <div class="row"> <!-- table row -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <input type="checkbox" aria-label="...">
+          </span>
+          <input type="text" class="form-control" aria-label="...">
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div> <!-- End of table row -->
+ 
+  </div>
+
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="js/to-do_js.js"></script>
+</body>
+</html>
