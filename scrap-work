@@ -1,0 +1,30 @@
+
+    <!-- start of submission section -->
+    <div class="row"> <!--Table Row 2 -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Text input">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="submit">Submit</button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div>  <!-- End of table row -->
+    
+    <div> <!-- row spacer -NEED TO ADD SPACE -->
+    </div>
+    
+    <div class="row"> <!-- table row -->
+      <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-addon">
+            <input type="checkbox" aria-label="...">
+          </span>
+          <input type="text" class="form-control" aria-label="..." placeholder="Text input" id="disabledInput">
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div> <!-- End of Submission table row -->
+ 
+  </div> <!-- End of Container -->
+
+  -->
